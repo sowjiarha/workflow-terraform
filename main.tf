@@ -12,10 +12,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "hashi-crop-sowjiarha"
 
     workspaces {
-      name = "learn-terraform-github-actions"
+      name = "githubactions-terraform-demo"
     }
   }
 }
